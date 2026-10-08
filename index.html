@@ -7,15 +7,22 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <select name="" id="filtrerParCateg">
+      <option value="">toutes les categories</option>
+
+      <option value="pc">pc</option>
+      <option value="souris">souris</option>
+    </select>
+    <input type="text" id="recherche" >
     <div id="produits"></div>
 
-    <form  id="form" >
+    <form id="form">
       <input id="nom" type="text" placeholder="nom" />
-      <input   id="prix"type="text" placeholder="prix"/>
-      <input  id="categorie" type="text" placeholder="categorie" />
-      <input  id="image" type="text" placeholder="image" />
-      <input  id="image2" type="text" placeholder="image2" />
-      <button  type="submit" > ajouter </button>
+      <input id="prix" type="text" placeholder="prix" />
+      <input id="categorie" type="text" placeholder="categorie" />
+      <input id="image" type="text" placeholder="image" />
+      <input id="image2" type="text" placeholder="image2" />
+      <button type="submit">ajouter</button>
     </form>
   </body>
 </html>
